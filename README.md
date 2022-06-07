@@ -1,3 +1,3 @@
-# Chope's Portolio
+# Chope's Portfolio
 
 This is my resume website.
