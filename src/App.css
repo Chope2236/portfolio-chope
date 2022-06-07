@@ -1,18 +1,20 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.About-me{
+  color: #dcdcdc;
+  text-align: left;
+  font-size: large;
+  width: 700px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.About-me-title{
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  width: 700px;
+  font-size: 30px;
+  margin: 0%;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,16 +25,62 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bottom-text{
+  color: #484c54;
+  font-size: 15px;
+  text-align: center;
+  width: 180px;
+  position: absolute;
+  bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  font-size: 20px;
+  position: absolute;
+  top: 12px;
+  background: none;
+  color: white;
+  border: none;
+}
+.github{
+  position: absolute;
+  right: 430px;
+  
+}
+
+.linkedin{
+  position: absolute;
+  right: 310px;
+}
+
+.contact{
+  position: absolute;
+  right:70px;
+}
+
+.projects{
+  position: absolute;
+  right: 190px;
+}
+
+.home{
+  position: absolute;
+  right: 550px;
+}
+.navbar{
+  background-color: rgba(40, 44, 52, .8);
+  height: 50px;
+  border: none;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0 , 0, 0, .3);
+}
+
+.title{
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  position: absolute;
+  left: 20px;
+  top: 6px;
 }
