@@ -5,7 +5,7 @@ function App() {
     <div className="App"> 
     <Navbar></Navbar>
       <header className="App-header">
-        <div className='info'>
+        <div className='rectangulo'>
           <h2 className='by'>Website created by</h2>
           <h1 className='name'>Sebastian "Chope" Trumpis</h1>
           <h2 className='work'>Student developer</h2>
@@ -27,16 +27,14 @@ function App() {
       <nav className='navbar'>
         <ul className='navbar-nav'>
         <header className='nav-buttons'>
-          <a href='localhost:3000' rel="noreferrer" target="_blank">
-            <button className='linkedin' title='My LinkedIn'>LinkedIn</button>
-          </a>
+          <button onClick={()=>{ alert("Haven't created a LinkedIn accout yet.\nYou can contact me via Email clicking 'Contact' button."); }} className='linkedin' title='My LinkedIn'>LinkedIn</button>
           <a href='https://github.com/Chope2236?tab=repositories' rel="noreferrer" target="_blank">
             <button className='projects' title='Personal projects'>Projects</button>
           </a>
-          <a href='localhost:3000' rel="noreferrer" target="_blank">
-            <button className='contact' title='Contact me'>Contact</button>
+          <a href='mailto:Chopetrumpis@gmail.com' rel="noreferrer" target="_blank">
+            <button className='contact' title='Contact me by Email'>Contact</button>
           </a>
-          <a href='localhost:3000'>
+          <a href='/'>
             <button className='home' title='Home page'>Home</button>
           </a>
         </header>
@@ -47,7 +45,6 @@ function App() {
       </nav>
     );
   }
-
 }
 
 export default App;

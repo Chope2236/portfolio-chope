@@ -8,6 +8,7 @@ p{
   width: 700px;
   position: relative;
   top: 20px;
+  margin-bottom: 10%;
 }
 .About-me-title{
   color: white;
@@ -38,33 +39,48 @@ p{
   color: white;
 }
 
-button{
-  font-size: 23px;
-  position: absolute;
-  top: 20px;
-  background: none;
-  color: white;
-  border: none;
-}
-
 .linkedin{
   position: absolute;
   right: 270px;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 6px;
 }
 
 .contact{
   position: absolute;
   right: 30px;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 6px;
 }
 
 .projects{
   position: absolute;
   right: 150px;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 6px;
 }
 
 .home{
   position: absolute;
   right: 390px;
+  color: white;
+  background: none;
+  border: none;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 6px;
 }
 .navbar{
   background-color: rgba(40, 44, 52, .8);
@@ -83,15 +99,16 @@ button{
   top: 13px;
 }
 
-.info{
+.rectangulo{
   height: 125px;
   width: 500px;
   background-color: rgb(33, 38, 46);
   box-shadow: 0 2px 5px 0 rgba(0 , 0, 0, .5 );
   margin-top: 7%;
   margin-bottom: 2%;
-  text-align: left;
   border-radius: 20px;
+  display: block;
+  justify-content: center;
 }
 
 .name{
@@ -100,6 +117,7 @@ button{
   position: relative;
   margin: 0px 0px 0px 15px;
   color: #dcdcdc;
+  text-align: left;
 }
 
 .by{
@@ -108,6 +126,7 @@ button{
   position: relative;
   color:grey;
   margin: 15px 0px 0px 15px;
+  text-align: left;
 }
 
 .work{
@@ -116,4 +135,5 @@ button{
   position: relative;
   color:grey;
   margin: 0px 0px 0px 15px;
+  text-align: left;
 }
