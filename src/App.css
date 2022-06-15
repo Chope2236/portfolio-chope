@@ -137,3 +137,16 @@ p{
   margin: 0px 0px 0px 15px;
   text-align: left;
 }
+
+.whatsthis-title{
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  width: 700px;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+}
+
+
+a { color:white}

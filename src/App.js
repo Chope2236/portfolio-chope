@@ -12,11 +12,20 @@ function App() {
         </div>
         <header className='About-me-header'>
           <h1 className="About-me-title">Who am i?</h1>
-          <p className="About-me">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor feugiat dictum. Pellentesque non lacus arcu. Aliquam aliquam viverra rutrum. Phasellus molestie pellentesque odio at auctor. Proin a eros neque. Nunc egestas libero eget vestibulum condimentum. Mauris tristique iaculis neque, a blandit diam cursus eget. Praesent eget commodo velit, eget laoreet ante. Nullam a nisl nec nisi tempus cursus eu iaculis eros. Mauris eu turpis pellentesque, molestie ex id, interdum magna. In dui turpis, feugiat et rutrum sit amet, laoreet vitae sem. Aliquam erat volutpat. Donec in sapien non lectus facilisis accumsan. In blandit eros quis sagittis molestie. Mauris fringilla dolor vel iaculis accumsan. Maecenas egestas leo felis, et egestas purus faucibus vel.</p>
+          <p className="About-me">I'm an Argentinian 16 years old student developer.<br/>
+          Currently in high school but I'm studying programming by my own since 2019 using videos, tutorials, college guides, etc.
+          </p>
         </header>
         <header className='My-Skills-header'>
           <h1 className='My-skills-title'>My Skills</h1>
-          <p className='My-skills'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin auctor feugiat dictum. Pellentesque non lacus arcu. Aliquam aliquam viverra rutrum. Phasellus molestie pellentesque odio at auctor. Proin a eros neque. Nunc egestas libero eget vestibulum condimentum. Mauris tristique iaculis neque, a blandit diam cursus eget. Praesent eget commodo velit, eget laoreet ante. Nullam a nisl nec nisi tempus cursus eu iaculis eros. Mauris eu turpis pellentesque, molestie ex id, interdum magna. In dui turpis, feugiat et rutrum sit amet, laoreet vitae sem. Aliquam erat volutpat. Donec in sapien non lectus facilisis accumsan. In blandit eros quis sagittis molestie. Mauris fringilla dolor vel iaculis accumsan. Maecenas egestas leo felis, et egestas purus faucibus vel.</p>
+          <p className='My-skills'>I know a a bit of everything, <a href="https://github.com/Chope2236/Python" rel="noreferrer" target="_blank">Python</a>, <a href="https://github.com/Chope2236/Ejercicios-de-C" rel="noreferrer" target="_blank">C</a>, Javascript, <a href="https://github.com/Chope2236/portfolio-chope" rel="noreferrer" target="_blank">React</a>, and used to work with LUA a few years ago.<br/>
+          My skills are not as developed as they should be, but I know that with time I will strengthen them.</p>
+        </header>
+
+        <header className='What is this?'>
+          <h1 className='whatsthis-title'>What is this?</h1>
+          <p className='whatsthis'>This is a website that I will use to show and update my projects, I expect it to work as a resume.<br/>
+          Currently on progress.</p>
         </header>
       </header>
     </div>
